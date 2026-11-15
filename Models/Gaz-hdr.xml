@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+<animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>6000</max-m>
+    </animation>
+
+	<path>gazelle.ac</path>
+	
+
+	
+	<effect>
+    <inherits-from>Aircraft/Gazelle/Models/Effects/reflect-uber</inherits-from>
+    <object-name>fuselage</object-name>
+   
+    <object-name>fuse_obj17_Mat_fuse_p</object-name>
+    <object-name>fuse_obj18_Mat_fuse_p</object-name>
+	<object-name>f-l-door</object-name>
+	<object-name>l-r-door</object-name>
+	<object-name>f-r-door</object-name>
+	<object-name>r-r-door</object-name>
+	<object-name>fuse_obj16_Mat_fuse_p</object-name>
+	<object-name>left-skid</object-name>
+	<object-name>right-skid</object-name>
+  </effect>	
+  
+  <animation>
+    
+    <object-name>fuselage</object-name>
+    <object-name>left-skid</object-name>
+    <object-name>right-skid</object-name>
+    <object-name>fuse_obj17_Mat_fuse_p</object-name>
+    <object-name>fuse_obj18_Mat_fuse_p</object-name>
+	<object-name>f-l-door</object-name>
+	<object-name>l-r-door</object-name>
+	<object-name>f-r-door</object-name>
+	<object-name>r-r-door</object-name>
+	<object-name>fuse_obj16_Mat_fuse_p</object-name>
+    
+  </animation>
+
+
+	
+
+
+
+  <!--  REMBRANDT support for transparent objects-->
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+		<object-name>blurred1</object-name> 
+		<object-name>blurred2</object-name> 
+		<object-name>blurred3</object-name> 
+		<object-name>blades</object-name> <!-- Blades Added -->
+        
+  </effect> 
+  
+   <effect>
+    <inherits-from>Effects/glass</inherits-from>
+         <object-name>glassin</object-name>
+		<object-name>l-doorglassin</object-name>
+		<object-name>l-rearglassin</object-name>
+		<object-name>r-doorglassin</object-name>
+		<object-name>r-rearglassin</object-name>
+    </effect>
+
+  
+    <effect>
+    <inherits-from>Aircraft/Gazelle/Models/Effects/glassout</inherits-from>
+    
+  <object-name>glass</object-name>
+		<object-name>l-doorglass</object-name>
+		<object-name>l-rearglass</object-name>
+		<object-name>r-doorglass</object-name>
+		<object-name>r-rearglass</object-name>
+		
+  </effect> 
+  
+  <animation>
+  <type>select</type>
+  <object-name>glass</object-name>
+		<object-name>l-doorglass</object-name>
+		<object-name>l-rearglass</object-name>
+		<object-name>r-doorglass</object-name>
+		<object-name>r-rearglass</object-name>
+  <condition>
+   <not>
+   <equals>
+    <property>sim/current-view/internal</property>
+    <value>true</value>
+   </equals>
+   </not>
+  </condition>
+ </animation>
+ 
+ <animation>
+  <type>select</type>
+ <object-name>glassin</object-name>
+		<object-name>l-doorglassin</object-name>
+		<object-name>l-rearglassin</object-name>
+		<object-name>r-doorglassin</object-name>
+		<object-name>r-rearglassin</object-name>
+  <condition>
+
+   <equals>
+    <property>sim/current-view/internal</property>
+    <value>true</value>
+   </equals>
+   
+  </condition>
+ </animation>
+
+  
+
+  
+ 
+
+</PropertyList>

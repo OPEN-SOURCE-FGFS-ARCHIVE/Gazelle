@@ -1,0 +1,940 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+
+
+
+
+	<model>
+<path>Aircraft/Gazelle/Models/Interior/instruments.ac</path>
+<offsets>
+<x-m> 0</x-m>
+<y-m>0</y-m>
+<z-m>0 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model>
+
+<!--model>
+<path>Aircraft/Gazelle/Models/Interior/Instruments/ai/ai2.xml</path>
+<offsets>
+<x-m> -4.49</x-m>
+<y-m>0.15</y-m>
+<z-m>-0.05 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model-->
+
+<model>
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/ai/ai-gaz.xml</path>
+    <offsets>
+        <x-m>-4.478</x-m>
+        <y-m> 0.150</y-m>
+        <z-m>-0.050</z-m>
+        <pitch-deg>0</pitch-deg>
+    </offsets>
+</model>
+
+<model>
+<path>Aircraft/Gazelle/Models/Interior/Instruments/tc/tc.xml</path>
+    <offsets>
+        <x-m>-4.473</x-m>
+        <y-m> 0.150</y-m>
+        <z-m>-0.090 </z-m>
+        <pitch-deg>0</pitch-deg>
+    </offsets>
+</model>
+
+<!--model>
+<path>Aircraft/Gazelle/Models/Interior/Instruments/adf/rmi.xml</path>
+<offsets>
+<x-m> -4.473</x-m>
+<y-m>0.152</y-m>
+<z-m>-0.16 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model-->
+<model>
+<path>Aircraft/Gazelle/Models/Interior/Instruments/oat/oat.xml</path>
+<offsets>
+<!--x-m> -4.474</x-m-->
+<x-m> -4.473</x-m>
+<y-m>0.352</y-m>
+<z-m>-0.453 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model>
+
+
+
+
+
+
+<!--model>
+<path>Aircraft/Gazelle/Models/Interior/Instruments/BatteryGauge/BatteryGauge.xml</path>
+<offsets>
+<x-m> -4.47</x-m>
+<y-m>0.24</y-m>
+<z-m>-0.233 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model-->
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/voltage/voltage.xml</path>
+	<offsets>
+		<x-m>-4.472</x-m>
+		<y-m> 0.240</y-m>
+		<z-m>-0.233</z-m>
+	<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/fuel/fuelqty.xml</path>
+	<offsets>
+		<x-m>-4.472</x-m>
+		<y-m> 0.189</y-m>
+		<z-m>-0.233 </z-m>
+	<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/engine/oil_temp.xml</path>
+	<offsets>
+		<x-m>-4.472</x-m>
+		<y-m> 0.139</y-m>
+		<z-m>-0.233 </z-m>
+	<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/asi/asi-gaz.xml</path>
+	<offsets>
+		<x-m>-4.473</x-m>
+		<y-m> 0.065</y-m>
+		<z-m>-0.046 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/vsi/vsi-gaz.xml</path>
+	<offsets>
+		<x-m>-4.473</x-m>
+		<y-m> 0.238</y-m>
+		<z-m>-0.046</z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+
+<!--model>
+<path>Aircraft/Gazelle/Instruments/torque/torque.xml</path>
+<offsets>
+<x-m> -4.47</x-m>
+<y-m>0.239</y-m>
+<z-m>-0.126 </z-m>
+<roll-deg>0</roll-deg>
+</offsets>
+</model-->
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/torque-gaz/torque-gaz.xml</path>
+	<offsets>
+		<x-m>-4.471</x-m>
+		<y-m> 0.238</y-m>
+		<z-m>-0.126 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<!--model>
+<path>Aircraft/Gazelle/Models/Interior/Instruments/alt/alt2.xml</path>
+<offsets>
+<x-m> -4.476</x-m>
+<y-m>0.0632</y-m>
+<z-m>-0.123</z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model-->
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/alt/alt-gaz.xml</path>
+	<offsets>
+		<x-m>-4.473</x-m>
+		<y-m> 0.0632</y-m>
+		<z-m>-0.123</z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+<path>Aircraft/Gazelle/Instruments/gsdi/gsdi.xml</path>
+<offsets>
+<x-m> -4.475</x-m>
+<y-m>-0.02</y-m>
+<z-m>-0.132</z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model>
+
+
+<!--model>
+<path>Aircraft/Gazelle/Models/Interior/Instruments/gyrocomp/gyro-compass.xml</path>
+<offsets>
+<x-m> -4.473</x-m>
+<y-m>0.0632</y-m>
+<z-m>-0.21</z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model-->
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/ralt/ralt.xml</path>
+	<offsets>
+		<x-m> -4.473</x-m>
+		<y-m>0.065</y-m>
+		<z-m>-0.215</z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/RPM/rpm.xml</path>
+	<offsets>
+		<x-m>-4.453</x-m>
+		<y-m> 0.256</y-m>
+		<z-m>-0.350 </z-m>
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/clock/chronograph.xml</path>
+	<offsets>
+		<x-m>-4.453</x-m>
+		<y-m> 0.198</y-m>
+		<z-m>-0.350 </z-m>
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/engine/temp.xml</path>
+	<offsets>
+		<x-m>-4.470</x-m>
+		<y-m> 0.149</y-m>
+		<z-m>-0.307 </z-m>
+		<pitch-deg>-25</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/switches/switchStart.xml</path>
+	<offsets>
+		<x-m>-4.452</x-m><!-- -ve = forward -->
+		<y-m> 0.135</y-m><!-- -ve = left -->
+		<z-m>-0.351</z-m><!-- -ve = down -->
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/indicators/warning_light_STOP.xml</path>
+	<offsets>
+		<x-m>-4.475</x-m>
+		<y-m> 0.152</y-m><!-- -ve = left -->
+		<z-m>-0.2695 </z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/indicators/warning_light_START.xml</path>
+	<offsets>
+		<x-m>-4.475</x-m>
+		<y-m> 0.1705</y-m>
+		<z-m>-0.2695 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/indicators/warning_light_INJ.xml</path>
+	<offsets>
+		<x-m>-4.475</x-m>
+		<y-m> 0.190</y-m>
+		<z-m>-0.2695 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/indicators/warning_light_STOP.xml</path>
+	<offsets>
+		<x-m>-4.475</x-m>
+		<y-m> 0.2095</y-m>
+		<z-m>-0.2695 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/cwp/cwp.xml</path>
+	<offsets>
+		<x-m>-4.475</x-m>
+		<y-m>-0.017</y-m>
+		<z-m>-0.045</z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+
+
+
+
+
+<model>
+  <path>Aircraft/Gazelle/Models/Interior/Instruments/map/CHDD.xml</path>
+  <offsets>
+   <x-m>-4.37</x-m>
+   <y-m>-0.007</y-m>
+   <z-m>-0.34</z-m>
+   <pitch-deg>-28</pitch-deg>
+  </offsets>
+ </model>
+
+ 
+ <!--model>
+  <path>Aircraft/Instruments-3d/comp/comp.xml</path>
+  <offsets>
+   <x-m>-4.668</x-m>
+   <y-m>0.0135</y-m>
+   <z-m>0.096</z-m>
+   <pitch-deg>0</pitch-deg>
+  </offsets>
+ </model-->
+ 
+<model>
+  <path>Aircraft/Gazelle/Models/Interior/Instruments/magcomp/comp.xml</path>
+  <offsets>
+   <x-m>-4.646</x-m>
+   <y-m>0.025</y-m><!-- left/right -->
+   <z-m>0.119</z-m><!-- up/dn -->
+   <pitch-deg>0</pitch-deg>
+  </offsets>
+ </model>
+ 
+ 
+ <model>
+		<name>RADIO</name>
+		<path>Aircraft/Gazelle/Models/Interior/Instruments/kx165/kx165-1.xml</path>
+		<offsets>
+			 <x-m>-4.335</x-m>
+   <y-m>0.0096</y-m>
+   <z-m>-0.417</z-m>
+   <pitch-deg>-28</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+<model>
+		
+		<path>Aircraft/Instruments-3d/kns80/kns80.xml</path>
+		<offsets>
+			 <x-m>-4.295</x-m>
+   <y-m>0.0096</y-m>
+   <z-m>-0.468</z-m>
+   <pitch-deg>-28</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+	</model>	
+<!-- 
+<model>
+		
+		<path>Aircraft/Instruments-3d/VIR-32/ctl32-nav1.xml</path>
+		<offsets>
+			<x-m>-4.273</x-m>
+   <y-m>-0.008</y-m>
+   <z-m>-0.529</z-m>
+   <pitch-deg>-28</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<model>
+		
+		<path>Aircraft/Instruments-3d/VIR-32/ctl32-nav2.xml</path>
+		<offsets>
+			<x-m>-4.273</x-m>
+   <y-m>0.0596</y-m>
+   <z-m>-0.529</z-m>
+   <pitch-deg>-28</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+ -->
+ 
+ <!-- Switches -->
+  <!--
+  <model>
+		<name>Landing lights</name>
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/landing-lights.xml</path>
+    <offsets> 
+    <x-m>-4.199</x-m>
+   <y-m>-0.0349</y-m>
+   <z-m>-0.588</z-m>
+   <pitch-deg>-70</pitch-deg>
+
+    </offsets>
+	</model>
+	
+	<animation>
+    <type>select</type>
+    <object-name>NoseGearLandinglight</object-name>
+    <object-name>Taxi-Light-Left</object-name>
+         
+    <condition>
+      <equals>
+        <property>controls/switches/landing-lights-switch</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+  </animation> 	
+  -->
+  
+   <model>
+		<name>Nav Lights</name>
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/nav.xml</path>
+    <offsets> 
+    <x-m>-4.473</x-m>
+   <y-m>-0.0495</y-m>
+   <z-m>-0.187</z-m>
+   <pitch-deg>-0</pitch-deg>
+
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.3</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<animation>
+    <type>select</type>
+    <object-name>GreenLightFlare</object-name>
+    <object-name>GreenLightRemb</object-name>
+	 <object-name>RedLightFlare</object-name>
+    <object-name>RedLightRemb</object-name>
+	<object-name>WhiteLightFlare</object-name>
+    <object-name>WhiteLightRemb</object-name>
+         
+    <condition>
+      <equals>
+        <property>controls/switches/nav-lights-switch</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+  </animation> 	
+  
+  
+    <model>
+		<name>strobe Lights</name>
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/strobe.xml</path>
+    <offsets> 
+    <x-m>-4.473</x-m>
+   <y-m>-0.0199</y-m>
+   <z-m>-0.187</z-m>
+   <pitch-deg>-0</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.3</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<animation>
+    <type>select</type>
+     <object-name>BeaconFlare</object-name>
+    <object-name>BeaconRemb</object-name>
+         
+    <condition>
+      <equals>
+        <property>controls/switches/beacon-switch</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+  </animation> 	
+  
+  
+  
+   <model>
+		<name>beacon Lights</name>
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/beacon.xml</path>
+   <offsets> 
+    <x-m>-4.473</x-m>
+   <y-m>0.0065</y-m>
+   <z-m>-0.187</z-m>
+   <pitch-deg>-0</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.3</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+   
+	</model>
+	
+	<animation>
+    <type>select</type>
+     <object-name>BeaconFlare</object-name>
+    <object-name>BeaconRemb</object-name>
+         
+    <condition>
+      <equals>
+        <property>controls/switches/beacon-switch</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+  </animation> 	
+
+
+
+
+  <!--
+  <model>
+ <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/starter.xml</path>
+<offsets>
+<x-m> -4.453</x-m>
+<y-m>0.156</y-m>
+<z-m>-0.35 </z-m>
+<pitch-deg>-26</pitch-deg>
+</offsets>
+</model>
+
+
+ <model>
+ <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/ignition.xml</path>
+<offsets>
+<x-m> -4.468</x-m>
+<y-m>0.18</y-m>
+<z-m>-0.31 </z-m>
+<pitch-deg>-26</pitch-deg>
+</offsets>
+</model>
+  -->
+  <!-- panel text -->
+  
+  <!-- warning panel ligts -->
+  
+  <!-- Yellow Lights -->
+  
+    <!--animation>
+  <type>material</type>
+  <object-name>rotor1</object-name>
+   <object-name>rotor2</object-name>
+   <object-name>fuel1</object-name>
+    <object-name>rotor</object-name>
+	<object-name>brake2</object-name>
+  <ambient>
+    <red>0.0</red>
+    <green>0.0</green>
+    <blue>0.0</blue>
+  </ambient>
+  <diffuse>
+    <red>0.1</red>
+    <green>0.1</green>
+    <blue>0.0</blue>
+  </diffuse>
+  <emission>
+    <red>0.8</red>
+    <green>0.8</green>
+    <blue>0.0</blue>
+  </emission> 
+ </animation>
+ 
+ 
+    <text>
+  <name>rotor1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.004</character-size>
+  <offsets>
+  <x-m> -4.475</x-m>
+<y-m>-0.0036</y-m>
+<z-m>-0.03</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">ROTOR</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <text>
+  <name>rotor2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.004</character-size>
+  <offsets>
+  <x-m> -4.475</x-m>
+<y-m>-0.0054</y-m>
+<z-m>-0.035</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">LOW RPM</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+  
+   <animation>
+        <type>select</type>
+        <object-name>rotor1</object-name>
+        <object-name>rotor2</object-name>
+        <condition>
+			<less-than>
+				<property>rotors/main/rpm</property>
+						<value>295</value>
+					</less-than>
+					
+			</condition>
+    </animation>
+
+
+ <text>
+  <name>fuel1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.007</character-size>
+  <offsets>
+    <x-m> -4.475</x-m>
+<y-m>-0.0046</y-m>
+<z-m>-0.044</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">FUEL</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <animation>
+        <type>select</type>
+        <object-name>fuel1</object-name>
+       
+        <condition>
+			<less-than>
+				<property>consumables/fuel/tank[0]/level-lbs</property>
+						<value>150</value>
+					</less-than>
+					
+			</condition>
+    </animation>
+ 
+
+ <text>
+  <name>brake2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.004</character-size>
+  <offsets>
+ <x-m> -4.475</x-m>
+<y-m>-0.0037</y-m>
+<z-m>-0.059</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">BRAKE</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+  
+ 
+ 
+  <text>
+  <name>rotor</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.004</character-size>
+  <offsets>
+  <x-m> -4.475</x-m>
+<y-m>-0.0037</y-m>
+<z-m>-0.055</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">ROTOR</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+  
+  <animation>
+        <type>select</type>
+        <object-name>rotor</object-name>
+        <object-name>brake2</object-name>
+        <condition>
+			<greater-than>
+				<property>controls/rotor/brake</property>
+						<value>0</value>
+					</greater-than>
+					
+			</condition>
+    </animation>
+	-->
+	
+	<!-- Red Lights -->
+  <!--
+    <animation>
+  <type>material</type>
+    <object-name>eng1</object-name>
+   <object-name>eng2</object-name>
+   <object-name>eng3</object-name>
+   <object-name>eng4</object-name>
+	<object-name>dh2</object-name> 
+  <ambient>
+    <red>0.0</red>
+    <green>0.0</green>
+    <blue>0.0</blue>
+  </ambient>
+  <diffuse>
+    <red>0.1</red>
+    <green>0.0</green>
+    <blue>0.0</blue>
+  </diffuse>
+  <emission>
+    <red>0.8</red>
+    <green>0.0</green>
+    <blue>0.0</blue>
+  </emission> 
+ </animation>	
+	
+	 <text>
+  <name>eng1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.004</character-size>
+  <offsets>
+ <x-m> -4.475</x-m>
+<y-m>-0.0266</y-m>
+<z-m>-0.03</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">ENGINE</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+  <text>
+  <name>eng2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.004</character-size>
+  <offsets>
+  <x-m> -4.475</x-m>
+<y-m>-0.024</y-m>
+<z-m>-0.034</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">OUT</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+
+ <animation>
+        <type>select</type>
+        <object-name>eng1</object-name>
+        <object-name>eng2</object-name>
+        <condition>
+			<not>
+				<property>engines/engine/running</property>
+						
+				</not>
+					
+			</condition>
+    </animation>
+	
+<text>
+  <name>eng3</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.004</character-size>
+  <offsets>
+ <x-m> -4.475</x-m>
+<y-m>-0.0266</y-m>
+<z-m>-0.018</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">ENGINE</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+  <text>
+  <name>eng4</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.004</character-size>
+  <offsets>
+  <x-m> -4.475</x-m>
+<y-m>-0.0262</y-m>
+<z-m>-0.022</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">START</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <animation>
+        <type>select</type>
+        <object-name>eng3</object-name>
+        <object-name>eng4</object-name>
+       <condition>
+				<property>controls/engines/engine[0]/starter</property>
+			</condition>
+    </animation>
+	
+	
+	 <text>
+  <name>dh2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.008</character-size>
+  <offsets>
+  <x-m> -4.479</x-m>
+<y-m>0.153</y-m>
+<z-m>0.021</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">150</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text-->
+ 	
+	
+	<!--animation>
+        <type>select</type>
+        <object-name>dh2</object-name>
+        
+       <condition>
+	   <less-than>
+				<property>position/altitude-agl-ft</property>
+				<value>150</value>
+		</less-than>		
+			</condition>
+    </animation-->
+	
+	
+ <!-- green Lights -->
+  
+    <!--animation>
+  <type>material</type>
+  <object-name>ralt</object-name>
+   <object-name>dh1</object-name>
+   
+  <ambient>
+    <red>0.0</red>
+    <green>1.0</green>
+    <blue>0.0</blue>
+  </ambient>
+  <diffuse>
+    <red>0.1</red>
+    <green>1</green>
+    <blue>0.0</blue>
+  </diffuse>
+  <emission>
+    <red>0.3</red>
+    <green>0.8</green>
+    <blue>0.0</blue>
+  </emission> 
+ </animation>
+ 
+ <text>
+  <name>ralt</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.008</character-size>
+  <offsets>
+ <x-m> -4.479</x-m>
+<y-m>0.133</y-m>
+<z-m>0.021</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">number-value</type>
+  <format type="string">%3.1f</format>
+  <truncate type="bool">false</truncate>
+  <property>position/altitude-agl-ft</property>
+  <draw-text type="bool">true</draw-text>
+  <alignment>right-top</alignment>
+ </text>
+ 
+  <text>
+  <name>dh1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.008</character-size>
+  <offsets>
+  <x-m> -4.479</x-m>
+<y-m>0.153</y-m>
+<z-m>0.021</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">150</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 	
+	
+	<animation>
+        <type>select</type>
+        <object-name>dh1</object-name>
+        
+       <condition>
+	   <greater-than>
+				<property>position/altitude-agl-ft</property>
+				<value>150</value>
+		</greater-than>		
+			</condition>
+    </animation-->
+
+</PropertyList>
+

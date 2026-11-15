@@ -1,0 +1,518 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>1000</max-m>
+    </animation>
+	
+	<animation>
+    <type>material</type>
+    <object-name>console.centre.top</object-name>
+   
+    <emission>
+            <red>   0.00003 </red>
+      <green> 0.0006 </green>
+      <blue>  0.0022 </blue>
+      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+    </emission>
+  </animation>
+	
+
+
+    <path>Aircraft/Gazelle/Models/Interior/interior5-mil.ac</path>
+  
+	<model>
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/woolthread/woolthread.xml</path>
+    <offsets>
+        <x-m>-4.95</x-m>
+        <y-m> 0.02</y-m>
+        <z-m>0.01</z-m>
+        <pitch-deg>0</pitch-deg>
+    </offsets>
+</model>
+
+
+<model>
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/oat/oat.xml</path>
+    <offsets>
+        <x-m>-3.880</x-m>
+        <y-m> 0.510</y-m>
+        <z-m> 0.380</z-m>
+        <pitch-deg>45</pitch-deg>
+        <roll-deg>52</roll-deg>
+    </offsets>
+</model>
+
+<model>
+  <path>Aircraft/Gazelle/Models/Interior/Instruments/magcomp/comp.xml</path>
+  <offsets>
+   <x-m>-4.646</x-m>
+   <y-m>0.025</y-m><!-- left/right -->
+   <z-m>0.119</z-m><!-- up/dn -->
+   <pitch-deg>0</pitch-deg>
+  </offsets>
+ </model>	
+
+
+<!-- unused switches -->
+ 
+ 
+ <model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.316</x-m>
+   <y-m>-0.03</y-m>
+   <z-m>-0.61</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+ 
+ 
+  <model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.316</x-m>
+   <y-m>0.002</y-m>
+   <z-m>-0.61</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+ 
+ 
+ 
+   <model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.316</x-m>
+   <y-m>0.0373</y-m>
+   <z-m>-0.61</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	 <model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.316</x-m>
+   <y-m>0.0692</y-m>
+   <z-m>-0.61</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.273</x-m>
+   <y-m>-0.03</y-m>
+   <z-m>-0.615</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	<model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.272</x-m>
+   <y-m>0.0022</y-m>
+   <z-m>-0.615</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.7</y-offset>
+    <z-offset>0.7</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	<model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.272</x-m>
+   <y-m>0.021</y-m>
+   <z-m>-0.615</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.7</y-offset>
+    <z-offset>0.7</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.272</x-m>
+   <y-m>0.038</y-m>
+   <z-m>-0.615</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.7</y-offset>
+    <z-offset>0.7</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<!-- panel2 -->
+	
+		<model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.235</x-m>
+   <y-m>-0.03</y-m>
+   <z-m>-0.62</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	 <model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.235</x-m>
+   <y-m>0.002</y-m>
+   <z-m>-0.62</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	 <model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.235</x-m>
+   <y-m>0.0373</y-m>
+   <z-m>-0.62</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	 <model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.235</x-m>
+   <y-m>0.0692</y-m>
+   <z-m>-0.62</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+    <x-m>-4.1915</x-m>
+   <y-m>-0.03</y-m>
+   <z-m>-0.626</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	<model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+   <x-m>-4.1915</x-m>
+   <y-m>0.0022</y-m>
+   <z-m>-0.626</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.7</y-offset>
+    <z-offset>0.7</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	
+	<model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+   <x-m>-4.1915</x-m>
+   <y-m>0.021</y-m>
+   <z-m>-0.626</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.7</y-offset>
+    <z-offset>0.7</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<model>
+		
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/spare.xml</path>
+    <offsets> 
+   <x-m>-4.1915</x-m>
+   <y-m>0.038</y-m>
+   <z-m>-0.626</z-m>
+   <pitch-deg>-80</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.7</y-offset>
+    <z-offset>0.7</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<!-- text for radios etc --> 
+
+  <animation>
+  <type>material</type>
+  <object-name>radio1</object-name>
+ 
+ 
+  <ambient>
+    <red>1.0</red>
+    <green>1.0</green>
+    <blue>1.0</blue>
+  </ambient>
+  <diffuse>
+    <red>0.1</red>
+    <green>0.1</green>
+    <blue>0.1</blue>
+  </diffuse>
+  <emission>
+    <red>0.8</red>
+    <green>0.8</green>
+    <blue>0.8</blue>
+  </emission> 
+ </animation> 
+ 
+ 
+ <text>
+  <name>radio1</name>
+  <font>lcd.txf</font>
+  <character-size type="double">0.011</character-size>
+  <offsets>
+   <x-m>-4.3567</x-m>
+   <y-m>0.0425</y-m>
+   <z-m>-0.565</z-m>
+ <pitch-deg>-25</pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">number-value</type>
+  <format type="string">%3.2f</format>
+  <truncate type="bool">false</truncate>
+ <property>instrumentation/comm[0]/frequencies/selected-mhz</property>
+  <alignment>right-top</alignment>
+ </text>
+ 
+ 
+  <animation>
+  <type>material</type>
+  <object-name>Lat</object-name>
+ 
+  <object-name>Long</object-name>
+ 
+   
+ 
+  <ambient>
+    <red>0.0</red>
+    <green>1.0</green>
+    <blue>0.0</blue>
+  </ambient>
+  <diffuse>
+    <red>0.0</red>
+    <green>0.1</green>
+    <blue>0.0</blue>
+  </diffuse>
+  <emission>
+    <red>0.3</red>
+    <green>0.8</green>
+    <blue>0.3</blue>
+  </emission> 
+ </animation>
+ 
+ 
+ <text>
+  <name>Lat</name>
+  <font>lcd.txf</font>
+  <character-size type="double">0.007</character-size>
+  <offsets>
+   <x-m>-4.465</x-m>
+   <y-m>0.062</y-m>
+   <z-m>-0.331</z-m>
+ <pitch-deg>-25</pitch-deg>
+ 
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">number-value</type>
+  <format type="string">%3.3f</format>
+  <truncate type="bool">false</truncate>
+ <property>instrumentation/gps/indicated-latitude-deg</property>
+  <alignment>right-top</alignment>
+ </text>
+ 
+ <text>
+  <name>Long</name>
+  <font>lcd.txf</font>
+  <character-size type="double">0.007</character-size>
+  <offsets>
+    <x-m>-4.465</x-m>
+   <y-m>0.006</y-m>
+   <z-m>-0.331</z-m>
+ <pitch-deg>-25</pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">number-value</type>
+ <format type="string">%3.3f</format>
+  <truncate type="bool">false</truncate>
+ <property>instrumentation/gps/indicated-longitude-deg</property>
+  <draw-text type="bool">true</draw-text>
+  <alignment>right-top</alignment>
+ </text>
+ 
+</PropertyList>
+

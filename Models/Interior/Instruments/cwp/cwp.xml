@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+	<path>cwp.ac</path>
+	<!-- -4.473 -0.0468516 0.0189084 -->
+	<effect>
+		<inherits-from>Effects/model-transparent</inherits-from>
+		<condition>
+			<property>/sim/rendering/rembrandt/enabled</property>
+		</condition>
+		<object-name>captions</object-name> 
+		<object-name>PITOT</object-name> 
+		<object-name>ENGP</object-name>
+		<object-name>MGBP</object-name>
+		<object-name>MGBT</object-name>
+		<object-name>GEN</object-name>
+		<object-name>ALTNR</object-name>
+		<object-name>BAT</object-name>
+		<object-name>NAV</object-name>
+		<object-name>FUEL</object-name>
+	</effect>	
+	
+		<!-- lighting -->
+	<animation> 
+		<object-name>PITOT</object-name>
+		<object-name>PITOTc</object-name>
+		<type>material</type>
+			  <condition>
+			    	<equals>
+				<!--	<property>/instrumentation/cwp/PITOT</property>-->
+					<property>sim/multiplay/generic/string[2]</property>
+					<value>1</value>
+				   </equals>
+			  </condition>
+		<emission>	  			  
+			<red>   1.0 </red>
+			<green> 0.01 </green>
+			<blue>  0.01 </blue>
+			<factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+		</emission>
+	</animation>
+	
+	
+
+	<!-- ================================================================== second row -->		
+	<animation> 
+		<object-name>ENGP</object-name>
+		<type>material</type>
+			  <condition>
+			    	<equals>
+					<!--<property>/instrumentation/cwp/ENGP</property>-->
+					<property>sim/multiplay/generic/string[3]</property>
+					<value>1</value>
+				   </equals>
+			  </condition>
+		<emission>	  			  
+			<red>   1.0 </red>
+			<green> 0.01 </green>
+			<blue>  0.01 </blue>
+			<factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+		</emission>
+	</animation>		
+	<animation> 
+		<object-name>MGBP</object-name>
+		<type>material</type>
+			  <condition>
+			    	<equals>
+					<!--<property>/instrumentation/cwp/MGBP</property>-->
+					<property>sim/multiplay/generic/string[4]</property>
+					<value>1</value>
+				   </equals>
+			  </condition>
+		<emission>	  			  
+			<red>   1.0 </red>
+			<green> 0.01 </green>
+			<blue>  0.01 </blue>
+			<factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+		</emission>
+	</animation>			
+	<animation> 
+		<object-name>MGBT</object-name>
+		<type>material</type>
+			  <condition>
+			    	<equals>
+					<!--<property>/instrumentation/cwp/MGBT</property>-->
+					<property>sim/multiplay/generic/string[5]</property>
+					<value>1</value>
+				   </equals>
+			  </condition>
+		<emission>	  			  
+			<red>   1.0 </red>
+			<green> 0.01 </green>
+			<blue>  0.01 </blue>
+			<factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+		</emission>
+	</animation>			
+				
+	<!-- ================================================================== third row -->		
+	<animation> 
+		<object-name>GEN</object-name>
+		<type>material</type>
+			  <condition>
+			    	<equals>
+					<!--<property>/instrumentation/cwp/GEN</property>-->
+					<property>sim/multiplay/generic/string[6]</property>
+					<value>1</value>
+				   </equals>
+			  </condition>
+		<emission>	  			  
+			<red>   1.0 </red>
+			<green> 0.01 </green>
+			<blue>  0.01 </blue>
+			<factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+		</emission>
+	</animation>		
+	<animation> 
+		<object-name>ALTNR</object-name>
+		<type>material</type>
+			  <condition>
+			    	<equals>
+					<!--<property>/instrumentation/cwp/ALTNR</property>-->
+					<property>sim/multiplay/generic/string[7]</property>
+					<value>1</value>
+				   </equals>
+			  </condition>
+		<emission>	  			  
+			<red>   1.0 </red>
+			<green> 0.01 </green>
+			<blue>  0.01 </blue>
+			<factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+		</emission>
+	</animation>						
+						
+	<!-- ================================================================== fourth row -->					
+	<animation> 
+		<object-name>NAV</object-name>
+		<type>material</type>
+			  <condition>
+			    	<equals>
+					<!--<property>/instrumentation/cwp/NAV</property>-->
+					<property>sim/multiplay/generic/string[8]</property>
+					<value>1</value>
+				   </equals>
+			  </condition>
+		<emission>	  			  
+			<red>   1.0 </red>
+			<green> 0.01 </green>
+			<blue>  0.01 </blue>
+			<factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+		</emission>
+	</animation>			
+	<animation> 
+		<object-name>FUEL</object-name>
+		<type>material</type>
+			  <condition>
+			    	<equals>
+					<!--<property>/instrumentation/cwp/FUEL</property>-->
+					<property>sim/multiplay/generic/string[9]</property>
+					<value>1</value>
+				   </equals>
+			  </condition>
+		<emission>	  			  
+			<red>   1.0 </red>
+			<green> 0.01 </green>
+			<blue>  0.01 </blue>
+			<factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+		</emission>
+	</animation>
+
+</PropertyList>

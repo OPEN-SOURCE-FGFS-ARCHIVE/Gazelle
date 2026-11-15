@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+
+
+
+
+	
+<path>Aircraft/Gazelle/Models/Interior/instruments.ac</path>
+
+ <animation>
+    <name>dash dim down</name>
+    <type>pick</type>
+    <visible>false</visible>
+    <object-name>dimdown</object-name>
+    <action>
+      <button>0</button>
+      <repeatable>true</repeatable>
+      <interval-sec>0.2</interval-sec>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/lighting/dash-dim</property>
+        <step>-0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+   <animation>
+    <name>dash dim up</name>
+    <type>pick</type>
+    <visible>false</visible>
+    <object-name>bright</object-name>
+    <action>
+      <button>0</button>
+      <repeatable>true</repeatable>
+      <interval-sec>0.2</interval-sec>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/lighting/dash-dim</property>
+        <step>0.1</step>
+      </binding>
+    </action>
+  </animation>
+
+</PropertyList>
+

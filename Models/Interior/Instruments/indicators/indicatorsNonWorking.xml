@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+
+<model><!-- Cargo -->
+	<path>warning_light_ORANGE.ac</path>
+	<offsets>
+		<x-m>-4.477</x-m><!-- -ve = forward -->
+		<y-m> 0.095</y-m><!-- -ve = left -->
+		<z-m>-0.270</z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+
+<model><!-- Load -->
+	<path>warning_light_BLUE.ac</path>
+	<offsets>
+		<x-m>-4.477</x-m><!-- -ve = forward -->
+		<y-m> 0.114</y-m><!-- -ve = left -->
+		<z-m>-0.270</z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model><!-- Fuel Tank -->
+	<path>warning_light_ORANGE.ac</path>
+	<offsets>
+		<x-m>-4.475</x-m><!-- -ve = forward -->
+		<y-m> 0.198</y-m><!-- -ve = left -->
+		<z-m>-0.297</z-m><!-- -ve = down -->
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+<model><!-- Sand Flt -->
+	<path>warning_light_GREEN.ac</path>
+	<offsets>
+		<x-m>-4.475</x-m><!-- -ve = forward -->
+		<y-m> 0.217</y-m><!-- -ve = left -->
+		<z-m>-0.297</z-m><!-- -ve = down -->
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+
+
+
+
+</PropertyList>
+

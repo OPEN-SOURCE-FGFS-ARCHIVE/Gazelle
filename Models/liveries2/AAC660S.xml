@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <!--name type="string">Army Air Corp. 660 Sqdn</name-->
+        <name type="string">Army Air Corps 29 Flt</name>
+        <!-- Registration: XW865 -->
+        <texture>liveries2/AAC660S.jpg</texture>
+		<milltexture>liveries2/660bits.jpg</milltexture>
+
+      </livery>
+	   <bo105>
+	   <hdr>false</hdr>
+		<als>true</als>
+		</bo105>
+    </model>
+	 <rendering>
+		<refl_correction type="string">-0.4</refl_correction>
+		<fresnel-factor>0.2</fresnel-factor>
+	</rendering>
+  </sim>
+
+</PropertyList>

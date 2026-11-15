@@ -1,0 +1,277 @@
+AC3Db
+MATERIAL "ac3dmat3" rgb 0.1 0.1 0.1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
+OBJECT world
+kids 13
+OBJECT poly
+name "SPARE1"
+loc -0.00051007 -0.0257177 0.023756
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff -0.327 -0.255
+crease 45.000000
+numvert 4
+0 -0.00430205 -0.0108574
+0 -0.00430205 0.0108574
+0 0.00430205 0.0108574
+0 0.00430205 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 1
+2 0 1
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "SPARE2"
+loc -0.00051007 -0.0257177 0.00115535
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff -0.327 -0.255
+crease 45.000000
+numvert 4
+0 0.00430204 -0.0108574
+0 0.00430204 0.0108574
+0 -0.00430205 0.0108574
+0 -0.00430205 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 1 1
+1 0 1
+2 0 0
+3 1 0
+kids 0
+OBJECT poly
+name "SPARE3"
+loc -0.00051007 -0.0139719 0.023837
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff -0.327 -0.255
+crease 45.000000
+numvert 4
+0 -0.00430205 -0.0108574
+0 -0.00430205 0.0108574
+0 0.00430205 0.0108574
+0 0.00430205 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 1
+2 0 1
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "GEN"
+loc -0.00051007 -0.00204252 0.0236907
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff 0.015 0.41
+crease 45.000000
+numvert 4
+0 0.00430205 -0.0108574
+0 0.00430205 0.0108574
+0 -0.00430205 0.0108574
+0 -0.00430205 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 1 1
+1 0 1
+2 0 0
+3 1 0
+kids 0
+OBJECT poly
+name "ENGP"
+loc -0.00051007 0.0112235 0.0236907
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff 0.327 0.618
+crease 45.000000
+numvert 4
+0 -0.00430205 -0.0108574
+0 -0.00430205 0.0108574
+0 0.00430205 0.0108574
+0 0.00430205 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 1
+2 0 1
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "FFILT"
+loc -0.00051007 -0.0257496 -0.0213572
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff -0.327 0.018
+crease 45.000000
+numvert 4
+0 0.00430205 -0.0108574
+0 0.00430205 0.0108574
+0 -0.00430205 0.0108574
+0 -0.00430205 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 1 1
+1 0 1
+2 0 0
+3 1 0
+kids 0
+OBJECT poly
+name "FUEL"
+loc -0.00051007 -0.0138557 -0.0213572
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff -0.327 0.2
+crease 45.000000
+numvert 4
+0 -0.00430205 -0.0108574
+0 -0.00430205 0.0108574
+0 0.00430204 0.0108574
+0 0.00430204 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 1
+2 0 1
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "BAT"
+loc -0.00051007 -0.0019098 -0.0213572
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff -0.327 0.4
+crease 45.000000
+numvert 4
+0 0.00430205 -0.0108574
+0 0.00430205 0.0108574
+0 -0.00430205 0.0108574
+0 -0.00430205 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 1 1
+1 0 1
+2 0 0
+3 1 0
+kids 0
+OBJECT poly
+name "MGBT"
+loc -0.00051007 0.0113865 -0.0213572
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff -0.327 0.618
+crease 45.000000
+numvert 4
+0 -0.00430204 -0.0108574
+0 -0.00430204 0.0108574
+0 0.00430205 0.0108574
+0 0.00430205 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 1
+2 0 1
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "NAV"
+loc -0.00051007 -0.0138591 0.0012506
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff 0.327 0.2
+crease 45.000000
+numvert 4
+0 0.00430205 -0.0108574
+0 0.00430205 0.0108574
+0 -0.00430204 0.0108574
+0 -0.00430204 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 1 1
+1 0 1
+2 0 0
+3 1 0
+kids 0
+OBJECT poly
+name "ALTNR"
+loc -0.00051007 -0.00187953 0.0012506
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff 0.327 0.418
+crease 45.000000
+numvert 4
+0 -0.00430204 -0.0108574
+0 -0.00430204 0.0108574
+0 0.00430204 0.0108574
+0 0.00430204 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 1
+2 0 1
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "MGBP"
+loc -0.00051007 0.0113865 0.0012506
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff 0.327 0.618
+crease 45.000000
+numvert 4
+0 0.00430205 -0.0108574
+0 0.00430205 0.0108574
+0 -0.00430205 0.0108574
+0 -0.00430205 -0.0108574
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 1 1
+1 0 1
+2 0 0
+3 1 0
+kids 0
+OBJECT poly
+name "PITOT"
+loc -0.000510067 0.0235912 0.0018506
+texture "cwp.jpg"
+texrep 0.27 0.15
+texoff -0.655 0.818
+crease 45.000000
+numvert 4
+0 0.00391095 -0.0098704
+0 0.00391095 0.0098704
+0 -0.00391095 0.0098704
+0 -0.00391095 -0.0098704
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 1 1
+1 0 1
+2 0 0
+3 1 0
+kids 0

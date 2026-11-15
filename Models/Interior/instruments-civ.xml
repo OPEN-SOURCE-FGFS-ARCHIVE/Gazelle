@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>100</max-m>
+    </animation>
+	
+	<path>Aircraft/Gazelle/Models/Interior/PANEL-civ.ac</path>
+
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/instruments.ac</path>
+	<offsets>
+		<x-m> 0</x-m>
+		<y-m>0</y-m>
+		<z-m>0 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/ai/ai-gaz.xml</path>
+    <offsets>
+        <x-m>-4.478</x-m>
+        <y-m> 0.150</y-m>
+        <z-m>-0.050</z-m>
+        <pitch-deg>0</pitch-deg>
+    </offsets>
+</model>
+
+<model>
+<path>Aircraft/Gazelle/Models/Interior/Instruments/tc/tc.xml</path>
+    <offsets>
+        <x-m>-4.473</x-m>
+        <y-m> 0.150</y-m>
+        <z-m>-0.090 </z-m>
+        <pitch-deg>0</pitch-deg>
+    </offsets>
+</model>
+
+<model>
+<path>Aircraft/Gazelle/Models/Interior/Instruments/gyrocomp/gyro-compass.xml</path>
+<offsets>
+
+<x-m> -4.473</x-m>
+<y-m>0.152</y-m>
+<z-m>-0.153 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model>
+
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/voltage/voltage.xml</path>
+	<offsets>
+		<x-m>-4.472</x-m>
+		<y-m> 0.240</y-m>
+		<z-m>-0.233</z-m>
+	<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/fuel/fuelqty.xml</path>
+	<offsets>
+		<x-m>-4.472</x-m>
+		<y-m> 0.189</y-m>
+		<z-m>-0.233 </z-m>
+	<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/engine/oil_temp.xml</path>
+	<offsets>
+		<x-m>-4.472</x-m>
+		<y-m> 0.139</y-m>
+		<z-m>-0.233 </z-m>
+	<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/asi/asi-gaz.xml</path>
+	<offsets>
+		<x-m>-4.473</x-m>
+		<y-m> 0.065</y-m>
+		<z-m>-0.046 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/vsi/vsi-gaz.xml</path>
+	<offsets>
+		<x-m>-4.473</x-m>
+		<y-m> 0.238</y-m>
+		<z-m>-0.046</z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/torque-gaz/torque-gaz.xml</path>
+	<offsets>
+		<x-m>-4.471</x-m>
+		<y-m> 0.238</y-m>
+		<z-m>-0.126 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/alt/alt-gaz.xml</path>
+	<offsets>
+		<x-m>-4.473</x-m>
+		<y-m> 0.0632</y-m>
+		<z-m>-0.123</z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+<path>Aircraft/Gazelle/Instruments/gsdi/gsdi.xml</path>
+<offsets>
+<x-m> -4.475</x-m>
+<y-m>-0.02</y-m>
+<z-m>-0.132</z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model>
+
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/ralt/ralt.xml</path>
+	<offsets>
+		<x-m> -4.473</x-m>
+		<y-m>0.065</y-m>
+		<z-m>-0.215</z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/RPM/rpm.xml</path>
+	<offsets>
+		<x-m>-4.453</x-m>
+		<y-m> 0.256</y-m>
+		<z-m>-0.350 </z-m>
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/clock/chronograph.xml</path>
+	<offsets>
+		<x-m>-4.453</x-m>
+		<y-m> 0.198</y-m>
+		<z-m>-0.350 </z-m>
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/engine/temp.xml</path>
+	<offsets>
+		<x-m>-4.470</x-m>
+		<y-m> 0.149</y-m>
+		<z-m>-0.307 </z-m>
+		<pitch-deg>-25</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/switches/switchStart.xml</path>
+	<offsets>
+		<x-m>-4.452</x-m>
+		<y-m> 0.135</y-m>
+		<z-m>-0.351</z-m>
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/indicators/warning_light_ALARM.xml</path>
+	<offsets>
+		<x-m>-4.475</x-m>
+		<y-m> 0.152</y-m>
+		<z-m>-0.2695 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/indicators/warning_light_START.xml</path>
+	<offsets>
+		<x-m>-4.475</x-m>
+		<y-m> 0.1705</y-m>
+		<z-m>-0.2695 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/indicators/warning_light_INJ.xml</path>
+	<offsets>
+		<x-m>-4.475</x-m>
+		<y-m> 0.190</y-m>
+		<z-m>-0.2695 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/indicators/warning_light_STOP.xml</path>
+	<offsets>
+		<x-m>-4.475</x-m>
+		<y-m> 0.2095</y-m>
+		<z-m>-0.2695 </z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model>
+	<path>Aircraft/Gazelle/Models/Interior/Instruments/cwp/cwp.xml</path>
+	<offsets>
+		<x-m>-4.475</x-m>
+		<y-m>-0.017</y-m>
+		<z-m>-0.045</z-m>
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+
+
+
+  
+   <model>
+		<name>Nav Lights</name>
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/nav.xml</path>
+    <offsets> 
+    <x-m>-4.473</x-m>
+   <y-m>-0.0495</y-m>
+   <z-m>-0.187</z-m>
+   <pitch-deg>-0</pitch-deg>
+
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.3</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<animation>
+    <type>select</type>
+    <object-name>GreenLightFlare</object-name>
+    <object-name>GreenLightRemb</object-name>
+	 <object-name>RedLightFlare</object-name>
+    <object-name>RedLightRemb</object-name>
+	<object-name>WhiteLightFlare</object-name>
+    <object-name>WhiteLightRemb</object-name>
+         
+    <condition>
+      <equals>
+        <property>controls/switches/nav-lights-switch</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+  </animation> 	
+  
+  
+    <model>
+		<name>strobe Lights</name>
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/strobe.xml</path>
+    <offsets> 
+    <x-m>-4.473</x-m>
+   <y-m>-0.0199</y-m>
+   <z-m>-0.187</z-m>
+   <pitch-deg>-0</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.3</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<animation>
+    <type>select</type>
+     <object-name>BeaconFlare</object-name>
+    <object-name>BeaconRemb</object-name>
+         
+    <condition>
+      <equals>
+        <property>controls/switches/beacon-switch</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+  </animation> 	
+  
+  
+  
+   <model>
+		<name>beacon Lights</name>
+    <path>Aircraft/Gazelle/Models/Interior/Instruments/switches/beacon.xml</path>
+   <offsets> 
+    <x-m>-4.473</x-m>
+   <y-m>0.0065</y-m>
+   <z-m>-0.187</z-m>
+   <pitch-deg>-0</pitch-deg>
+
+    </offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.3</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+   
+	</model>
+	
+	<animation>
+    <type>select</type>
+     <object-name>BeaconFlare</object-name>
+    <object-name>BeaconRemb</object-name>
+         
+    <condition>
+      <equals>
+        <property>controls/switches/beacon-switch</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+  </animation> 	
+
+  
+ <!-- text for radios etc --> 
+
+  <animation>
+  <type>material</type>
+  <object-name>radio1</object-name>
+ 
+ 
+  <ambient>
+    <red>1.0</red>
+    <green>1.0</green>
+    <blue>1.0</blue>
+  </ambient>
+  <diffuse>
+    <red>0.1</red>
+    <green>0.1</green>
+    <blue>0.1</blue>
+  </diffuse>
+  <emission>
+    <red>0.8</red>
+    <green>0.8</green>
+    <blue>0.8</blue>
+  </emission> 
+ </animation> 
+ 
+ 
+ <text>
+  <name>radio1</name>
+  <font>lcd.txf</font>
+  <character-size type="double">0.011</character-size>
+  <offsets>
+   <x-m>-4.3567</x-m>
+   <y-m>0.0425</y-m>
+   <z-m>-0.565</z-m>
+ <pitch-deg>-25</pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">number-value</type>
+  <format type="string">%3.2f</format>
+  <truncate type="bool">false</truncate>
+ <property>instrumentation/comm[0]/frequencies/selected-mhz</property>
+  <alignment>right-top</alignment>
+ </text>
+ 
+ 
+  <animation>
+  <type>material</type>
+  <object-name>Lat</object-name>
+ 
+  <object-name>Long</object-name>
+ 
+   
+ 
+  <ambient>
+    <red>0.0</red>
+    <green>1.0</green>
+    <blue>0.0</blue>
+  </ambient>
+  <diffuse>
+    <red>0.0</red>
+    <green>0.1</green>
+    <blue>0.0</blue>
+  </diffuse>
+  <emission>
+    <red>0.3</red>
+    <green>0.8</green>
+    <blue>0.3</blue>
+  </emission> 
+ </animation>
+ 
+ 
+ <text>
+  <name>Lat</name>
+  <font>lcd.txf</font>
+  <character-size type="double">0.007</character-size>
+  <offsets>
+   <x-m>-4.465</x-m>
+   <y-m>0.062</y-m>
+   <z-m>-0.331</z-m>
+ <pitch-deg>-25</pitch-deg>
+ 
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">number-value</type>
+  <format type="string">%3.3f</format>
+  <truncate type="bool">false</truncate>
+ <property>instrumentation/gps/indicated-latitude-deg</property>
+  <alignment>right-top</alignment>
+ </text>
+ 
+ <text>
+  <name>Long</name>
+  <font>lcd.txf</font>
+  <character-size type="double">0.007</character-size>
+  <offsets>
+    <x-m>-4.465</x-m>
+   <y-m>0.006</y-m>
+   <z-m>-0.331</z-m>
+ <pitch-deg>-25</pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">number-value</type>
+ <format type="string">%3.3f</format>
+  <truncate type="bool">false</truncate>
+ <property>instrumentation/gps/indicated-longitude-deg</property>
+  <draw-text type="bool">true</draw-text>
+  <alignment>right-top</alignment>
+ </text>
+ 
+
+	<model><path>Instruments/indicators/indicatorsNonWorking.xml</path></model>
+	<model><path>Instruments/switches/switchesNonWorking.xml</path>	</model>
+	
+
+	 
+</PropertyList>
+

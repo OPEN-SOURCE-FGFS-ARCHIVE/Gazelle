@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+
+<model><!-- Pitot -->
+	<path>switchPanelUP.xml</path>
+	<offsets>
+		<x-m>-4.471</x-m><!-- -ve = forward -->
+		<y-m> 0.019</y-m><!-- -ve = left -->
+		<z-m>-0.270</z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model><!-- Conf -->
+	<path>switchPanelDN.xml</path>
+	<offsets>
+		<x-m>-4.471</x-m><!-- -ve = forward -->
+		<y-m> 0.038</y-m><!-- -ve = left -->
+		<z-m>-0.270</z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model><!-- Wiper -->
+	<path>switchPanelCentre.xml</path>
+	<offsets>
+		<x-m>-4.471</x-m><!-- -ve = forward -->
+		<y-m> 0.057</y-m><!-- -ve = left -->
+		<z-m>-0.270</z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model><!-- Wiper 2-->
+	<path>switchPanelCentre.xml</path>
+	<offsets>
+		<x-m>-4.472</x-m><!-- -ve = forward -->
+		<y-m> 0.212</y-m><!-- -ve = left -->
+		<z-m>-0.176</z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model><!-- Battery -->
+	<path>switchPanelUP.xml</path>
+	<offsets>
+		<x-m>-4.470</x-m><!-- -ve = forward -->
+		<y-m> 0.229</y-m><!-- -ve = left -->
+		<z-m>-0.269</z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model><!-- Altnr -->
+	<path>switchPanelUP.xml</path>
+	<offsets>
+		<x-m>-4.470</x-m><!-- -ve = forward -->
+		<y-m> 0.247</y-m><!-- -ve = left -->
+		<z-m>-0.269</z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model><!-- Gen -->
+	<path>switchPanelUP.xml</path>
+	<offsets>
+		<x-m>-4.470</x-m><!-- -ve = forward -->
+		<y-m> 0.266</y-m><!-- -ve = left -->
+		<z-m>-0.269</z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model><!-- Fuel Tank -->
+	<path>switchPanelDN.xml</path>
+	<offsets>
+		<x-m>-4.470</x-m><!-- -ve = forward -->
+		<y-m> 0.198</y-m><!-- -ve = left -->
+		<z-m>-0.312</z-m><!-- -ve = down -->
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+<model><!-- Sand Flt -->
+	<path>switchPanelDN.xml</path>
+	<offsets>
+		<x-m>-4.470</x-m><!-- -ve = forward -->
+		<y-m> 0.217</y-m><!-- -ve = left -->
+		<z-m>-0.312</z-m><!-- -ve = down -->
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+<model><!-- Stick Feel -->
+	<path>switchPanelDN.xml</path>
+	<offsets>
+		<x-m>-4.470</x-m><!-- -ve = forward -->
+		<y-m> 0.236</y-m><!-- -ve = left -->
+		<z-m>-0.312</z-m><!-- -ve = down -->
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+
+
+<model><!-- Fuel Pump -->
+	<path>switchPanelUP.xml</path>
+	<offsets>
+		<x-m>-4.453</x-m><!-- -ve = forward -->
+		<y-m> 0.155</y-m><!-- -ve = left -->
+		<z-m>-0.351</z-m><!-- -ve = down -->
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+
+<model><!-- Panel Lighting -->
+	<path>switchPanelUP.xml</path>
+	<offsets>
+		<x-m>-4.473</x-m><!-- -ve = forward -->
+		<y-m> -0.023</y-m><!-- -ve = left -->
+		<z-m>-0.222</z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+
+<model><!-- Test -->
+	<path>switchPushbutton.ac</path>
+	<offsets>
+		<x-m>-4.476</x-m><!-- -ve = forward -->
+		<y-m> 0.1335</y-m><!-- -ve = left -->
+		<z-m>-0.271</z-m><!-- -ve = down -->
+		<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+<model><!-- ALTNR -->
+	<path>switchPushbutton.ac</path>
+	<offsets>
+		<x-m>-4.470</x-m><!-- -ve = forward -->
+		<y-m> 0.2555</y-m><!-- -ve = left -->
+		<z-m>-0.3115</z-m><!-- -ve = down -->
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+<model><!-- GEN -->
+	<path>switchPushbutton.ac</path>
+	<offsets>
+		<x-m>-4.470</x-m><!-- -ve = forward -->
+		<y-m> 0.275</y-m><!-- -ve = left -->
+		<z-m>-0.3115</z-m><!-- -ve = down -->
+		<pitch-deg>-26</pitch-deg>
+	</offsets>
+</model>
+
+
+
+
+
+</PropertyList>
+

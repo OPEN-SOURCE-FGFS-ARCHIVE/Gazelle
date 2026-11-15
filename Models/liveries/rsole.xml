@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">R-SOLE</name>
+        <texture>liveries/rsole.jpg</texture>
+
+      </livery>
+	   <bo105>
+	   <hdr>true</hdr>
+		<als>false</als>
+		</bo105>
+    </model>
+	 <rendering>
+		<refl_correction type="string">-0.15</refl_correction>
+		<fresnel-factor>0.7</fresnel-factor>
+	</rendering>
+  </sim>
+
+</PropertyList>

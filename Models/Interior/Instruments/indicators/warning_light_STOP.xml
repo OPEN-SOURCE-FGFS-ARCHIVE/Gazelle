@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<PropertyList> 
+	<path>warning_light_RED.ac</path>
+	<effect>
+		<inherits-from>Effects/model-transparent</inherits-from>
+		<condition>
+			<property>/sim/rendering/rembrandt/enabled</property>
+		</condition>
+		<object-name>lens</object-name> 
+	</effect>
+	<!-- lighting -->
+	<animation> 
+		<object-name>lens</object-name>
+		<type>material</type>
+			<factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+			  <condition>
+			    <and>
+			    	<equals>
+					<property>/engines/engine/starting/switch-angle</property>
+					<value>45</value>
+				   </equals>
+				   
+				   <greater-than>
+					<!--<property>/engines/engine/n1-rpm</property>-->
+					<property>sim/multiplay/generic/float[18]</property>
+					<value>20000</value>
+				   </greater-than>
+				   
+				   
+			    </and>
+			  </condition>
+		<emission>	  			  
+			<red>1.0</red>
+			<green>0.0</green>
+			<blue>0.0</blue>
+		</emission>
+	</animation>
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	<!--  LoD  -->
+	<animation> 
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>35</max-m>
+	</animation>
+</PropertyList>
